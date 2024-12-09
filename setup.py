@@ -13,11 +13,11 @@ def get_version() -> str:
 
 
 setup(
-    name="assemblyai",
+    name="assemblyai-quso-fork",
     version=get_version(),
     description="AssemblyAI Python SDK",
     author="AssemblyAI",
-    author_email="engineering.sdk@assemblyai.com",
+    author_email="parth@vidyo.ai",
     packages=find_packages(exclude=["tests", "tests.*"]),
     install_requires=[
         "httpx>=0.19.0",

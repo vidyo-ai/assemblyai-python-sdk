@@ -1433,7 +1433,7 @@ class Utterance(UtteranceWord):
 class Chapter(BaseModel):
     summary: str
     headline: str
-    gist: str
+    gist: Optional[str]=None
     start: int
     end: int
 
