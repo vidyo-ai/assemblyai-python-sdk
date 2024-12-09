@@ -13,7 +13,7 @@ def get_version() -> str:
 
 
 setup(
-    name="assemblyai-quso-fork",
+    name="assemblyai",
     version=get_version(),
     description="AssemblyAI Python SDK",
     author="AssemblyAI",
