@@ -18,7 +18,7 @@ setup(
     description="AssemblyAI Python SDK",
     author="AssemblyAI",
     author_email="parth@vidyo.ai",
-    packages=find_packages(exclude=["tests", "tests.*"]),
+    packages=find_packages(where="assemblyai",exclude=["tests", "tests.*"]),
     install_requires=[
         "httpx>=0.19.0",
         "pydantic>=1.10.17",
